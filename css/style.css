@@ -105,11 +105,8 @@ h2 { font-size: clamp(1.7rem, 3.5vw, 2.4rem); margin-bottom: 2rem; }
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
   text-decoration: none;
-  transition: var(--transition);
 }
-
 .logo-img {
   width: 36px;
   height: 36px;
@@ -117,10 +114,69 @@ h2 { font-size: clamp(1.7rem, 3.5vw, 2.4rem); margin-bottom: 2rem; }
   border-radius: 8px;
   transition: var(--transition);
 }
-
-.logo:hover .logo-img {
+.logo-img:hover {
   transform: scale(1.08);
   filter: drop-shadow(0 0 8px rgba(52, 224, 208, 0.6));
+}
+
+.primary-nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+.primary-nav a {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--text-dim);
+  transition: var(--transition);
+  text-decoration: none;
+}
+.primary-nav a:hover {
+  color: var(--text);
+}
+
+.github-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--card-border);
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  color: var(--text) !important;
+}
+.github-pill:hover {
+  border-color: var(--cyan);
+  color: var(--cyan) !important;
+}
+
+.nav-toggle-input {
+  display: none !important;
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.nav-toggle span {
+  width: 24px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: var(--transition);
+}
+
+.nav-toggle-input:checked ~ .nav-toggle span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.nav-toggle-input:checked ~ .nav-toggle span:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle-input:checked ~ .nav-toggle span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 /* === HERO === */
