@@ -3,9 +3,9 @@
 Entrega de PFO1 de **Desarrollo de Sistemas Web (Front End)** — de la Tecnicatura Superior en Desarrollo de Software.  
 Landing page responsive desarrollada exclusivamente con **HTML5 semántico y CSS3 puro** (sin frameworks ni JavaScript).
 
-🔗 **Sitio en Vercel:** https://vargasnancy.vercel.app/
-🔗 **Perfil de GitHub:** https://github.com/LuNanVarg
-🔗 **Portfolio Docente (Padlet):** https://padlet.com/nancyvargasit/portfolio-docente-de-tecnologia-y-computacion-nivel-primario-uhjox40wogfxnss9
+- 🔗 **Sitio en Vercel:** https://vargasnancy.vercel.app/
+- 🔗 **Perfil de GitHub:** https://github.com/LuNanVarg
+- 🔗 **Portfolio Docente (Padlet):** https://padlet.com/nancyvargasit/portfolio-docente-de-tecnologia-y-computacion-nivel-primario-uhjox40wogfxnss9
 ---
 
 ## Stack y Decisiones Técnicas
@@ -107,9 +107,9 @@ Desarrollo de Software · QA & Automatización
 
 📍 Buenos Aires, Argentina
 
-🔗 GitHub: https://github.com/LuNanVarg\
-🔗 LinkedIn: https://linkedin.com/in/vargasnancy
-🔗 Portfolio Docente: https://padlet.com/nancyvargasit/portfolio-docente-de-tecnologia-y-computacion-nivel-primario-uhjox40wogfxnss9
+- 🔗 GitHub: https://github.com/LuNanVarg\
+- 🔗 LinkedIn: https://linkedin.com/in/vargasnancy
+- 🔗 Portfolio Docente: https://padlet.com/nancyvargasit/portfolio-docente-de-tecnologia-y-computacion-nivel-primario-uhjox40wogfxnss9
 
 ------------------------------------------------------------------------
 
